@@ -7,7 +7,7 @@ function App() {
   const [results, setResults] = useState([]);
 
   const handleSearch = async (topic) => {
-    const response = await fetch("http://localhost:5000/search", {
+    const response = await fetch("https://researcher-agent-q86b.onrender.com/search", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ topic, limit: 10 }),
