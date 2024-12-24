@@ -1,0 +1,42 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .results-list {
+    margin-top: 20px;
+  }
+  
+  .result-item {
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    text-align: left;
+  }
+  
+  .result-item h3 {
+    margin: 0;
+  }
+  
+  .result-item p {
+    margin: 5px 0;
+  }
+  
