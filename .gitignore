@@ -1,0 +1,10 @@
+# Environment variables
+.env
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js-related files
+node_modules/
