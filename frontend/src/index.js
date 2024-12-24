@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'styles/index.css';  // Global styles (you can customize it)
+import 'styles/App.css';  // Global styles (you can customize it)
 import App from './App'; // Main App component
 import { BrowserRouter as Router } from 'react-router-dom'; // For routing if needed
 
